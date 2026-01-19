@@ -122,6 +122,70 @@
     font-size: 1rem;
     margin-bottom: 32px;
 }
+/* love and enjoy style */
+#love-and-enjoy-title-id {
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+.love-and-enjoy-text-container {
+    max-width: 586px;
+    margin-right: 146px;
+}
+.love-and-enjoy-title {
+    font-size: 2.81rem;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.love-and-enjoy-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 60px;
+}
+.love-card {
+    padding: 40px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+.love-card-header {
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}.love-card-description {
+    color: #727272;
+}
+.love-and-enjoy-image img {
+    width: 100%;
+}
+#btn-2 {
+    padding: 45px 42px;
+    margin-top: -123px;
+    margin-left: -92px;
+    margin-bottom: 130px;
+}
+#btn-2-big-text {
+    font-size: 4rem;
+    font-weight: 700;
+}
+#btn-2-small-text {
+    font-size: 1.56rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* some fact style */
 .some-fact-title {
     font-size: 2.81rem;
@@ -183,6 +247,21 @@
 .sponsor-img img {
     filter: grayscale(100%);
 }
+/* footer style */
+footer {
+    border-radius: 8px;
+}
+.footer-text {
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 39px 0px;
+    margin-bottom: 216px;
+}
+
+.hide {
+    display: none;
+}
 
 
 
@@ -224,6 +303,27 @@
         margin-left: 10px;
         margin-top: 50px;
     }
+    /* love and enjoy */
+    .love-and-enjoy {
+        flex-direction: column;
+    }
+    .love-and-enjoy-text-container {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .love-and-enjoy-description {
+        padding: 10px;
+    }
+    #btn-2 {
+        margin-left: 5px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+
+
+
+
+
     .our-features-images {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -235,5 +335,9 @@
     .sponsor-img {
         grid-template-columns: repeat(1, 1fr);
         gap: 50px;
+    }
+    .footer-text {
+        font-size: 1rem;
+        margin-bottom: 150px;
     }
 }
